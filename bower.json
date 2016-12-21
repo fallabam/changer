@@ -1,0 +1,11 @@
+{
+  "name": "change",
+  "description": "Change calculator",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.5.0",
+    "bootstrap": "^3.3.6",
+    "angular-mocks": "~1.5.0"
+  }
+}

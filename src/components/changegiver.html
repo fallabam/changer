@@ -1,0 +1,17 @@
+<h1>{{$ctrl.name}}</h1>
+<div class="container">
+  <div class="form-inline">
+    <label for="optimal-change-amount" class="col-md-4">Optimal change amount:</label>
+    <input type="number" class="form-control col-md-4" ng-model="$ctrl.unlimitedValue"
+           id="optimal-change-input" ng-change="$ctrl.getOptimalChangeList()">
+   <label class="col-md-4"><h4>{{$ctrl.unlimitedCoinsReturned}}</h4></label>
+  </div>
+</div>
+<div class="container">
+  <div class="form-inline">
+    <label for="optimal-change-amount"  class="col-md-4">Limited change amount:</label>
+    <input type="number" class="form-control col-md-4" ng-model="$ctrl.limitedValue"
+           id="optimal-change-input" ng-change="$ctrl.getChangeFromLimitedList()">
+    <label class="col-md-4"><h4>{{$ctrl.limitedCoinsReturned}}</h4></label>
+  </div>
+</div>
